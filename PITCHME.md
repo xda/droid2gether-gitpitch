@@ -59,9 +59,9 @@ For those who aren't familiar with the process, getting the APK from an android 
     - allows modifying e.g. arguments passed, changing objects etc.
   - `afterHookedMethod`
     - called after the real function
-    - allows affecting objects after the real code has been run, modify return value of function etc.
+    - allows affecting objects after the real code has been run
   - `replaceHookedMethod`
-    - completely replaces the real function and allows to completely replace functionality
+    - completely replaces the real function to completely replace functionality
 
 Note:
 Xposed has a few different ways to hook functions:
