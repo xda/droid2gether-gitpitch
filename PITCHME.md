@@ -6,10 +6,10 @@
 ---
 ## What is Xposed
 - Developed by XDA Senior Recognized Developer rovo89
-- System patch allowing user apps to hook into any Android JAVA call, any application
-- Requires patched system, including dalvik, Zygote, etc.
-- Allows hooking all types of apps, included system and Play Store apps
-- Allows replacing resources to affect look and layout - on the fly
+- System patch allowing user apps to hook into any Android JAVA call, any application <!-- .element: class="fragment" -->
+- Requires patched system, including dalvik, Zygote, etc. <!-- .element: class="fragment" -->
+- Allows hooking all types of apps, included system and Play Store apps <!-- .element: class="fragment" -->
+- Allows replacing resources to affect look and layout - on the fly <!-- .element: class="fragment" -->
 
 Note:
 Xposed is a system patch that allows user applications to hook into any Android java call in any application. It requires a patched system, including dalvik, Zygote etc. Due to the way it's implemented, it allows hooking all types of apps, including system and playstore apps. Furthermore, it allows replacing resources in apps to change the way they look and are layouted.
@@ -17,19 +17,23 @@ Xposed is a system patch that allows user applications to hook into any Android 
 +++
 ### Getting Started with Xposed
 - Deciding what to change
-- Look at raw code of the app
-  - Apktool (https://ibotpeaches.github.io/Apktool/)
-  - Dex2jar (https://github.com/pxb1988/dex2jar)
-  - Java Decompiler Online (http://www.javadecompilers.com/apk)
-  - If dealing with mostly stock Android package, e.g. SystemUI, see https://android.googlesource.com/ for hints
-- Now start writing code
+- Look at raw code of the app <!-- .element: class="fragment" -->
+  - Apktool (https://ibotpeaches.github.io/Apktool/) <!-- .element: class="fragment" -->
+  - Dex2jar (https://github.com/pxb1988/dex2jar) <!-- .element: class="fragment" -->
+  - Java Decompiler Online (http://www.javadecompilers.com/apk) <!-- .element: class="fragment" -->
+  - If dealing with mostly stock Android package, e.g. SystemUI, see https://android.googlesource.com/ for hints <!-- .element: class="fragment" -->
+- Now start writing code <!-- .element: class="fragment" -->
 
 Note:
 The hardest part of writing an Xposed Module is actually finding the right place to change the application. Now, if the application is open source, this is no issue, but what do you do when it's a proprietary application or a system application? The solution has multiple steps:
 
++++
 ### Getting the apk
 - Requires ADB setup and working in your Android terminal
-- Get exact package name
+- Get exact package name <!-- .element: class="fragment" -->
+  - use ADB shell if not known
+
++++
 ```
 $ adb shell pm list packages
 $ adb shell pm path com.android.systemui
