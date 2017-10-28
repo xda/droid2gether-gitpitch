@@ -75,6 +75,7 @@ replaceHookedMethod which completely replaces the real function and allows to co
 - Introductory Repo: http://bit.ly/xposedIntro
 - Settings Demo: http://bit.ly/Xposed-SampleSettings
 - Clock Demo: http://bit.ly/XposedClockDemo
+- This Presentation: https://github.com/xda/droid2gether-gitpitch
 
 ---
 ## Q&A
