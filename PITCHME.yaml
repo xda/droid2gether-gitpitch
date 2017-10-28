@@ -1,0 +1,5 @@
+theme : black
+revealjs: 3.4.1
+transition : fade
+mousewheel : true
+theme-override : assets/css/custom.css
