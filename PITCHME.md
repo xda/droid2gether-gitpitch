@@ -17,12 +17,12 @@ Xposed is a system patch that allows user applications to hook into any Android 
 +++
 ### Getting Started with Xposed
 - Deciding what to change
-- Look at raw code of the app <!-- .element: class="fragment" -->
-  - Apktool (https://ibotpeaches.github.io/Apktool/) <!-- .element: class="fragment" -->
-  - Dex2jar (https://github.com/pxb1988/dex2jar) <!-- .element: class="fragment" -->
-  - Java Decompiler Online (http://www.javadecompilers.com/apk) <!-- .element: class="fragment" -->
-  - If dealing with mostly stock Android package, e.g. SystemUI, see https://android.googlesource.com/ for hints <!-- .element: class="fragment" -->
-- Now start writing code <!-- .element: class="fragment" -->
+- Look at raw code of the app
+  - Apktool (https://ibotpeaches.github.io/Apktool/)
+  - Dex2jar (https://github.com/pxb1988/dex2jar)
+  - Java Decompiler Online (http://www.javadecompilers.com/apk)
+  - If dealing with mostly stock Android package, e.g. SystemUI, see https://android.googlesource.com/ for hints
+- Now start writing code
 
 Note:
 The hardest part of writing an Xposed Module is actually finding the right place to change the application. Now, if the application is open source, this is no issue, but what do you do when it's a proprietary application or a system application? The solution has multiple steps:
@@ -31,7 +31,7 @@ The hardest part of writing an Xposed Module is actually finding the right place
 ### Getting the apk
 - Requires ADB setup and working in your Android terminal
 - Get exact package name <!-- .element: class="fragment" -->
-  - use ADB shell if not known
+  - use ADB shell if not known <!-- .element: class="fragment" -->
 
 +++
 ```
@@ -75,6 +75,7 @@ replaceHookedMethod which completely replaces the real function and allows to co
 - Introductory Repo: http://bit.ly/xposedIntro
 - Settings Demo: http://bit.ly/Xposed-SampleSettings
 - Clock Demo: http://bit.ly/XposedClockDemo
+- Google Chrome Home Button: http://bit.ly/XposedChromeHomeButton
 - This Presentation: https://github.com/xda/droid2gether-gitpitch
 
 ---
