@@ -51,6 +51,7 @@ For those who aren't familiar with the process, getting the APK from an android 
   - Dex2jar (https://github.com/pxb1988/dex2jar)
   - Java Decompiler Online (http://www.javadecompilers.com/apk)
 
++++
 ### Hooking
 - Xposed presents a few ways to hook:
   - `beforeHookedMethod`
