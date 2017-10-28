@@ -1,6 +1,6 @@
 ## Android and Xposed Framework
 *XDA Developers*<br />
-![conflogo](images/kszwbimzbc2wnlor7say.jpg)
+![conflogo](/images/kszwbimzbc2wnlor7say.jpg)
 ![xdalogo](/images/XDA_Logo_reversed.png)
 
 ---

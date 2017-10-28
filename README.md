@@ -4,7 +4,7 @@
 ![droidcon](images/kszwbimzbc2wnlor7say.jpg)
 
 ## Workshop: Android and Xposed Framework
-TO VIEW: https://gitpitch.com/xda/xda-droid2gether
+TO VIEW: https://gitpitch.com/xda/droid2gether-gitpitch
 
 #### GitPitch WEBSITE: [www.gitpitch.com](https://gitpitch.com) | HOW-TO : [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki) | TWITTER: [@gitpitch](https://twitter.com/gitpitch)
 ## GitPitch MIT License
