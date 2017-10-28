@@ -59,7 +59,7 @@ For those who aren't familiar with the process, getting the APK from an android 
     - allows modifying e.g. arguments passed, changing objects etc.
   - `afterHookedMethod`
     - called after the real function
-    - allows affecting objects after the real code has been run
+    - allows affecting objects after the real code run
   - `replaceHookedMethod`
     - completely replaces the real function to completely replace functionality
 
